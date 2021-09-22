@@ -143,10 +143,10 @@ li {
 /* SECOND SECTION */
 /* ALL THAT IS INSIDE */
 .second-section {
-    margin: 200px;
+    padding: 200px;
+    background-color: white;
 }
 
-/* CLEARFIX */
 .left1 {
     width: 65%;
     float: left;
@@ -157,6 +157,7 @@ li {
     float: left;
 }
 
+/* CLEARFIX */
 .clearfix::after {
     content: "";
     display: table;
@@ -165,3 +166,30 @@ li {
 
 /* THIRD SECTION */
 /* ALL THA IS INSIDE */
+.third-section {
+    padding: 200px;
+    background-color: #f6f6f6;
+}
+
+.left2 {
+    width: 35%;
+    float: left;
+}
+
+.right2 {
+    width: 65%;
+    float: left;
+    position: relative;
+}
+
+.right2 img {
+    position: absolute;
+    right: 0%;
+}
+
+/* FOURTH SECTION */
+/* ALL THAT IS INSIDE */
+.fourth-section {
+    padding: 200px;
+    background-color: white;
+}
