@@ -2,4 +2,124 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* PROVA */
+.prova {
+    line-height: 20px;
+    border: solid 1px black;
+}
+
+/* UTILITY */
+
+.container {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.white-bottom {
+    background-color: white;
+    line-height: 15px;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.bt-white a {
+    text-decoration: none;
+    color: black;
+}
+
+.black-bottom {
+    background-color: #23272a;
+    line-height: 15px;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.bt-black a {
+    text-decoration: none;
+    color: white;
+}
+
+/* TOP MAX CONTAINER */
+.header-container1 {
+    background-color: #255ee9;
+}
+
+/* CONTENTE TOP CONTAINER */
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* TOP NAVIGATION ZONE */
+.nav a:first-child {
+    margin-left: 200px;
+}
+
+.nav a:last-child {
+    margin-right: 200px;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+}
+
+/* BOTTOM BIANCO */
+.bt-white a {
+    text-decoration: none;
+    color: black;
+}
+
+/* FIRST MAIN BACK IMG */
+
+.first-main {
+    display: block;
+    background-image: url(./img/jumbo.png);
+    width: 100%;
+}
+
+/* ALL THAT IS INSIDE  */
+.container-chg {
+    padding: 100px 0;
+    padding-bottom: 400px;
+    width: 50%;
+}
+
+.first-main .container .contain {
+    text-align: center;
+    padding: 0% 5%;
+}
+
+.first-main .container .contain h1{
+    color: white;
+    font-size: 60px;
+    line-height: 150px;
+}
+
+.first-main .container .contain p{
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+/* FIRST MAIN DOUBLE BOTTOM */
+.second-bottom {
+    text-align: center;
+}
+
+.second-bottom div{
+    display: inline-block;
 }
