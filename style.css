@@ -45,6 +45,19 @@
     color: white;
 }
 
+h1 {
+    color: #23272a;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #23272a;
+    font-size: 25px;
+    line-height: 40px;
+}
+
 /* TOP MAX CONTAINER */
 .header-container1 {
     background-color: #255ee9;
@@ -84,35 +97,38 @@ li {
 
 /* FIRST MAIN BACK IMG */
 
-.first-main {
+.first-section {
     display: block;
     background-image: url(./img/jumbo.png);
-    width: 100%;
+    height: 830px;
+    background-size: cover;
 }
 
+/* FIRST SECTION */
 /* ALL THAT IS INSIDE  */
 .container-chg {
-    padding: 100px 0;
-    padding-bottom: 400px;
+    padding: 140px 0;
+    padding-bottom: 265px;
     width: 50%;
 }
 
-.first-main .container .contain {
+.first-section .container .contain {
     text-align: center;
     padding: 0% 5%;
 }
 
-.first-main .container .contain h1{
+.first-section .container .contain h1{
     color: white;
     font-size: 60px;
     line-height: 150px;
 }
 
-.first-main .container .contain p{
+.first-section .container .contain p{
     color: white;
     font-size: 30px;
     line-height: 40px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 /* FIRST MAIN DOUBLE BOTTOM */
@@ -122,4 +138,27 @@ li {
 
 .second-bottom div{
     display: inline-block;
+}
+
+/* SECOND SECTION */
+/* ALL THAT IS INSIDE */
+.second-section {
+    margin: 200px;
+}
+
+/* CLEARFIX */
+.left1 {
+    width: 65%;
+    float: left;
+}
+
+.right1 {
+    width: 35%;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
