@@ -193,3 +193,40 @@ li {
     padding: 200px;
     background-color: white;
 }
+
+/* FIFTH SECTION */
+/* ALL THAT IS INSIDE */
+.fifth-section {
+    padding: 200px;
+    background-color: #f6f6f6;
+}
+
+.fifth-section h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.fifth-section p {
+    text-align: center;
+}
+
+.fifth-img img {
+    margin: 50px 0;
+    width: 100%;
+}
+
+.fifth-text2 h1 {
+    font-size: 40px;
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+.fifth-bottom {
+    text-align: center;
+}
+
+.fifth-bottom div {
+    background-color: #8ea1e1;
+}
